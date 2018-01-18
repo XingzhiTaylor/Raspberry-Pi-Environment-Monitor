@@ -4,7 +4,7 @@ import datetime
 import arrow
 
 app = Flask(__name__)
-app.debug = True # Make this False if you are no longer debugging
+app.debug = False
 
 @app.route("/")
 def hello():
